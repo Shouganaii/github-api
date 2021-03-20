@@ -1,11 +1,14 @@
-import { FETCH_REPOSITORIES } from '../actions/main-types/main-actions';
 const initState = {
-    orders: [],
+    name: '',
+    user_data: {}
 }
 const user = (state = initState, action) => {
     switch (action.type) {
-        case FETCH_REPOSITORIES: {
-            return { ...state, orders: action.orders }
+        case 'SAVE_USER_NAME': {
+            return { ...state, name: action.name }
+        }
+        case 'SAVE_USER_DATA': {
+            return { ...state, user_data: action.user_data }
         }
         default:
             return state;
