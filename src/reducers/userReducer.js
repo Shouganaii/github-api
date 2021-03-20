@@ -8,7 +8,7 @@ const user = (state = initState, action) => {
             return { ...state, name: action.name }
         }
         case 'SAVE_USER_DATA': {
-            return { ...state, name: action.user_data }
+            return { ...state, user_data: action.user_data }
         }
         default:
             return state;

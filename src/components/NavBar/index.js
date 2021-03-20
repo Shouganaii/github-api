@@ -34,7 +34,7 @@ const Navbar = () => {
                     onChange={(e) => dispatch({ type: 'SAVE_USER_NAME', name: e.target.value })}
                 />
                 <Button variant="outlined" color="info" size="large"
-                    onClick={(e) => getUserInfo()}
+                    onClick={() => getUserInfo()}
                 >
                     Pesquisar
                 </Button>
