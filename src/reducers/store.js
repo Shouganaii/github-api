@@ -1,8 +1,4 @@
 import { combineReducers } from 'redux'
-import repositories from './repositoriesReducer';
-import user from './userReducer';
+import reducer from './reducer';
 
-export default combineReducers({
-    repositories,
-    user
-})
+export default combineReducers({ reducer })
