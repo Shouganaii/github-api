@@ -13,7 +13,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 ```bash
 # Clone este repositório
-$ git clone <https://github.com/Shouganaii/github-api>
+$ git clone https://github.com/Shouganaii/github-api
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd github-api
@@ -24,5 +24,5 @@ $ npm install ou yarn
 # Execute a aplicação
 $ npm run start ou yarn start
 
-# O servidor inciará na porta:3000 - acesse <http://localhost:3000>
+# O servidor inciará na porta:3000 - acesse http://localhost:3000
 ```
