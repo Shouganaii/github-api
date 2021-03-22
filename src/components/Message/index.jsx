@@ -1,7 +1,7 @@
-import { Grid } from '@material-ui/core';
+import { Typography } from '@material-ui/core';
 
 export default function Message({ message }) {
-    return (<Grid>
+    return (<Typography>
         {message}
-    </Grid>)
+    </Typography>)
 }

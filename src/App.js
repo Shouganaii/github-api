@@ -3,11 +3,11 @@ import './App.css';
 
 import React from 'react';
 import { connect } from 'react-redux';
-import Repos from '../src/components/Repos/index'
+import Repos from '../src/components/Repos/index.jsx'
 import { makeStyles } from '@material-ui/core/styles';
 import { Container, Grid, Paper } from '@material-ui/core';
-import Navbar from '../src/components/NavBar/index'
-import UserDrawer from '../src/components/UserDrawer/index'
+import Navbar from '../src/components/NavBar/index.jsx'
+import UserDrawer from './components/UserDrawer/index.jsx'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -73,7 +73,7 @@ function App() {
                   <Repos />
                 </Paper>
               </Grid>
-            </Grid>            
+            </Grid>
           </div>
         </Container>
       </main>
